@@ -6,13 +6,6 @@ import github from './github.jpeg'
 import react from './react.jpeg'
 import tailwind from './tailwind.jpeg'
 import bootstrap from './bootstrap.jpeg'
-import html1 from './html1.jpg';
-import css1 from './css1.jpg';
-import js1 from './js1.jpg';
-import react1 from './react1.jpg';
-import git1 from './github1.jpg';
-import boot1 from './bootstrap1.jpg';
-import tailwind1 from './tailwind1.jpg';
 
 function Skill() {
   return (
