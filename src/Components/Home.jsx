@@ -1,6 +1,5 @@
 import React from 'react'
 import img1 from './home.png'
-import digna from './digna1.jpg'
 import {ReactTyped} from "react-typed";
 
 function Home() {

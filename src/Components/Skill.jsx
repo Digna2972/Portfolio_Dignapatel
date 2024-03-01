@@ -1,10 +1,10 @@
 import React from 'react'
-import html from './html.jpeg'
-import css from './css.jpeg'
+import css from './html.jpeg'
+import html from './css.jpeg'
 import js from './js.jpeg'
 import github from './github.jpeg'
 import react from './react.jpeg'
-import tailwind from './tailwind.jpeg'
+import tailwind from './tail.jpeg'
 import bootstrap from './bootstrap.jpeg'
 
 function Skill() {
@@ -19,19 +19,19 @@ function Skill() {
           src={html} />
           <h3 className='text-2xl  text-yellow-300 md:text-4xl'>HTML</h3>        
           </div>
-          <div className='   flex flex-col md:flex-col  md:border md:-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
+          <div className='flex flex-col md:flex-col  md:border md:-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
           <img 
           className='h-1/4 w-1/4'
           src={css} />
           <h3 className=' text-2xl text-yellow-300 md:text-4xl'>CSS</h3>        
           </div>
-          <div className='  flex flex-col md:flex-col  md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
+          <div className='flex flex-col md:flex-col  md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
           <img 
           className='h-1/4 w-1/4'
           src={js} />
           <h3 className='text-2xl text-yellow-300 md:text-4xl'>JS</h3>        
           </div>
-          <div className= '   flex flex-col md:flex-col  md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
+          <div className= 'flex flex-col md:flex-col  md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
           <img 
           className='h-1/4 w-1/4'
           src={github} />
