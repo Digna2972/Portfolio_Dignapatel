@@ -13,6 +13,7 @@ function About() {
           <h2 className='md:text-3xl text-xl text-yellow-200'>S.S.C: 89 %</h2>
           <h2 className='md:text-3xl text-xl text-yellow-200'>H.S.C: 71%</h2>
           <h2  className='md:text-5xl  text-2xl  text-white'>University:G.T.U</h2>
+          <h2 className='md:text-3xl text-xl text-yellow-200'>B. Tech (C.S.E)</h2>
           <h2 className='md:text-3xl text-xl text-yellow-200'>C.G.P.A : 8.84 </h2>
         </div>
       </div>
