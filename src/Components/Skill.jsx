@@ -65,31 +65,31 @@ function Skill() {
         <div className='flex flex-col md:hidden h-fit mx-4 rounded-xl my-4'>                 
             <div>
                 <div className='flex flex-col justify-center items-center'>
-                    <div className=' flex flex-row w-1/2 text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-orange-500 hover:bg-orange-300 hover:shadow-orange-500'><img
+                    <div className='gap-8 flex flex-row w-3/4 text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-orange-500 hover:bg-orange-300 hover:shadow-orange-500'><img
                      className='w-10 mx-3' src={html} alt="" />
                      <h3 className='text-2xl p-3 font-bold  '>HTML</h3>
                      </div>
-                    <div className='flex flex-row w-1/2 text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-blue-500 hover:bg-blue-300 hover:shadow-blue-500'>
+                    <div className=' gap-8 flex flex-row w-3/4 text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-blue-500 hover:bg-blue-300 hover:shadow-blue-500'>
                       <img className='w-10 mx-3' src={css} alt="" />
                       <h3 className='text-2xl p-3 font-bold  '>CSS</h3>
                       </div>
-                    <div className='flex flex-row w-1/2 text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-yellow-500 hover:bg-yellow-200 hover:shadow-yellow-500'>
+                    <div className='flex flex-row gap-8 w-3/4 text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-yellow-500 hover:bg-yellow-200 hover:shadow-yellow-500'>
                       <img className='w-10 mx-3' src={js} alt="" />
                       <h3 className='text-2xl p-3 font-bold  '>JavaScript</h3>
                       </div>
-                    <div className='flex flex-row w-1/2 text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-sky-500 hover:bg-sky-300 hover:shadow-sky-500'>
+                    <div className='flex flex-row gap-8 w-3/4 text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-sky-500 hover:bg-sky-300 hover:shadow-sky-500'>
                       <img className='w-10 mx-3' src={react} alt="" />
                       <h3 className='text-2xl p-3 font-bold  '>React Js</h3>
                       </div>
-                    <div className='flex flex-row w-1/2 text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-sky-500 hover:bg-sky-300 hover:shadow-sky-500'>
+                    <div className='flex flex-row gap-8 w-3/4 text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-sky-500 hover:bg-sky-300 hover:shadow-sky-500'>
                       <img className='w-10 mx-3' src={tailwind} alt="" />
                       <h3 className='text-2xl p-3 font-bold  '>Tailwind</h3>
                       </div>
-                    <div className='flex flex-row w-1/2  text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-violet-500 hover:bg-violet-300 hover:shadow-violet-500'>
+                    <div className='flex flex-row w-3/4 gap-8  text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-violet-500 hover:bg-violet-300 hover:shadow-violet-500'>
                       <img className='w-10 mx-3' src={bootstrap} alt="" />
                       <h3 className='text-2xl p-3 font-bold  '>Bootstrap</h3>
                       </div>
-                    <div className='flex flex-row w-1/2  text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-violet-500 hover:bg-violet-300 hover:shadow-violet-500'>
+                    <div className='flex flex-row w-3/4 gap-8  text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-violet-500 hover:bg-violet-300 hover:shadow-violet-500'>
                       <img className='w-10 mx-3' src={github} alt="" />
                       <h3 className='text-2xl p-3 font-bold  '>Github</h3>
                       </div>
