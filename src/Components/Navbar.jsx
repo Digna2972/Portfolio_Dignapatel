@@ -34,7 +34,7 @@ function Navbar() {
         </div>
         {show  && (
            <ul 
-           className='absolute right-10 mt-4 w-fit top-12 p-4 h-fit bg-gradient-to-bl from-color-background to to-blue-900 rounded-lg    '>
+           className='absolute h-full mt-4 w-full top-12 p-4  bg-gradient-to-bl from-color-background to to-blue-900 rounded-lg    '>
                <li className='shadow-xl hover:shadow-slate-300 hover:bg-slate-200 hover:text-black hover:rounded-3xl hover:px-4 hover:py-1'><a>Home</a></li>
                <li className='shadow-xl hover:shadow-slate-300 hover:bg-slate-200 hover:text-black hover:rounded-3xl hover:px-4 hover:py-1'><a>Skill</a></li>
                <li className='shadow-xl hover:shadow-slate-300 hover:bg-slate-200 hover:text-black hover:rounded-3xl hover:px-4 hover:py-1'><a>Education</a></li>

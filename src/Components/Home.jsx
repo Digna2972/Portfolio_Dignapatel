@@ -29,7 +29,7 @@ function Home() {
             showCursor={true}
           />
         </div> 
-        <p className='text-white mt-3 mx-3 text-xl italic p-4 items-center justify-center '> My name is Digna Patel and I am currently pursuing a B.Tech in Computer Science and Engineering from GTU, with an expected graduation date in 2024. My interests include Javascript, React Js, HTML, CSS,Bootstrap ,Tailwind Web Development and creating websites using HTML/CSS. I am passionate about technology and strive to stay up-to-date with the latest advancements in the field. I am also keen on website development and its design. </p>            
+        <p className='text-white mt-3 mx-3 text-xl italic p-4 items-center justify-center '> My name is Digna Patel and I am currently pursuing a B.Tech in Computer Science and Engineering from GTU, with an expected graduation date in 2024. My interests include Javascript, React Js, HTML, CSS,Bootstrap ,Tailwind Web Development and creating responsive websites using HTML/CSS. I am passionate about technology and strive to stay up-to-date with the latest advancements in the field. I am also keen on website development and its design. </p>            
                   <button 
                   onClick={handlevent}
                   className=' mt-15 shadow-md shadow-yellow-500 text-2xl 
