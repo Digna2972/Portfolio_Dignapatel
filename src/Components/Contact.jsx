@@ -6,8 +6,8 @@ function Contact() {
       <div className="w-auto flex flex-col md:flex-row p-5 md:pl-[113px]  pt-[76.6px] gap-4">
         <div className="flex flex-col  md:w-1/2 items-center  gap-2">
           <h3 className="w-fit text-3xl font-bold text-yellow-500">Digna_2972</h3>
-          <p className="flex-wrap h-fit md:w-1/2 text-xl p-2 text-white">Web developer | Reactjs developer |
-          Frontend developer</p>
+          <p className="flex-wrap h-fit md:w-1/2 text-xl p-2 text-white">Web developer | Full Stack developer 
+          </p>
          
         
         </div>

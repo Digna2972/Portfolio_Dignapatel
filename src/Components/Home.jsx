@@ -4,7 +4,7 @@ import {ReactTyped} from "react-typed";
 
 function Home() {
   const handlevent=()=>{
-    window.location.href='https://drive.google.com/file/d/1fzouUEX21cB403ituhGeO6Qo7b1l7srR/view?usp=drive_link'
+    window.location.href='https://drive.google.com/file/d/173yjLh1v1w-gcNGHhVsI_3r74p03ZOAS/view?usp=drivesdk'
   }
   return (
     <div className="bg-gradient-to-t from-color-background to to-blue-900 h-fit">
@@ -21,7 +21,7 @@ function Home() {
         <div className='text-white md:text-6xl grid place-items-center pt-10  text-3xl h-1/4 pb-6 mb-5'>
             {" "}
           <ReactTyped
-            strings={["React Developer"]}
+            strings={["Full Stack Developer"]}
             typeSpeed={100}
             loop
             backSpeed={100}
@@ -29,7 +29,7 @@ function Home() {
             showCursor={true}
           />
         </div> 
-        <p className='text-white mt-3 mx-3 text-xl italic p-4 items-center justify-center text-justify'> My name is Digna Patel and I am currently pursuing a B.Tech in Computer Science and Engineering from GTU, with an expected graduation date in 2024. My interests include Javascript, React Js, HTML, CSS,Bootstrap ,Tailwind Web Development and creating responsive websites using HTML/CSS. I am passionate about technology and strive to stay up-to-date with the latest advancements in the field. I am also keen on website development and its design. </p>            
+        <p className='text-white mt-3 mx-3 text-xl italic p-4 items-center justify-center text-justify'> My name is Digna Patel and I am currently pursuing a B.Tech in Computer Science and Engineering from GTU, with an expected graduation date in 2024. My interests include Javascript, React Js, Node js,HTML, CSS,Bootstrap ,Tailwind  Web Development and creating responsive websites using HTML/CSS. I am passionate about technology and strive to stay up-to-date with the latest advancements in the field. I am also keen on website development and its design. </p>            
                   <button 
                   onClick={handlevent}
                   className=' mt-15 shadow-md shadow-yellow-500 text-2xl 
