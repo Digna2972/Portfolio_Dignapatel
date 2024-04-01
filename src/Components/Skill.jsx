@@ -15,25 +15,25 @@ function Skill() {
       <div className='grid place-items-center text-color-text text-4xl md:text-6xl mt-10 pt-14'>My Skills</div>
         <div className=' hidden md:flex  md:flex-row justify-center items-center gap-10 pt-10  pl-20 pr-20 ml-6 mr-6'>
           <div className='
-           flex flex-col md:flex-col  md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
+           flex flex-col md:flex-col  md:border hover:scale-125 transition duration-500 cursor-pointer   md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
           <img
           className='h-1/4 w-1/4'
           src={html} />
-          <h3 className='text-2xl  text-yellow-300 md:text-4xl'>HTML</h3>        
+          <h3 className='text-2xl  text-yellow-300 md:text-4xl '>HTML</h3>        
           </div>
-          <div className='flex flex-col md:flex-col  md:border md:-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
+          <div className='flex flex-col md:flex-col  md:border md:-slate-200 md:border-xl hover:scale-125 transition duration-500 cursor-pointer md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
           <img 
           className='h-1/4 w-1/4'
           src={css} />
           <h3 className=' text-2xl text-yellow-300 md:text-4xl'>CSS</h3>        
           </div>
-          <div className='flex flex-col md:flex-col  md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
+          <div className='flex flex-col md:flex-col  md:border hover:scale-125 transition duration-500 cursor-pointer md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
           <img 
           className='h-1/4 w-1/4'
           src={js} />
           <h3 className='text-2xl text-yellow-300 md:text-4xl'>JS</h3>        
           </div>
-          <div className= 'flex flex-col md:flex-col  md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
+          <div className= 'flex flex-col md:flex-col  md:border hover:scale-125 transition duration-500 cursor-pointer md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
           <img 
           className='h-1/4 w-1/4'
           src={github} />
@@ -43,19 +43,19 @@ function Skill() {
         </div>
         <div className='md:flex hidden md:flex-row justify-center items-center gap-10 pt-10 w-full pl-16 pr-20 ml-6 mr-6'>
           <div className=' md:w-1/4
-           flex flex-col md:flex-col  md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
+           flex flex-col md:flex-col  md:border hover:scale-125 transition duration-500 cursor-pointer md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
           <img
           className='h-1/4 w-1/4'
           src={react} />
           <h3 className='text-2xl  text-yellow-300 md:text-4xl'>React JS</h3>        
           </div>
-          <div className='md:w-1/4  flex flex-col md:flex-col  md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
+          <div className='md:w-1/4  flex flex-col md:flex-col hover:scale-125 transition duration-500 cursor-pointer md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
           <img 
           className='h-1/4 w-1/4'
           src={tailwind} />
           <h3 className='text-2xl text-yellow-300 md:text-4xl'>Tailwind</h3>        
           </div>
-          <div className='md:w-1/4 flex flex-col md:flex-col md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
+          <div className='md:w-1/4 flex flex-col md:flex-col md:border hover:scale-125 transition duration-500 cursor-pointer md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
           <img 
           className='h-1/4 w-1/4'
           src={bootstrap} />
@@ -66,19 +66,19 @@ function Skill() {
         </div>
         <div className='md:flex hidden md:flex-row justify-center items-center gap-10 pt-10 w-full pl-16 pr-20 ml-6 mr-6'>
           <div className=' md:w-1/4
-           flex flex-col md:flex-col  md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
+           flex flex-col md:flex-col hover:scale-125 transition duration-500 cursor-pointer  md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
           <img
           className='h-1/4 w-1/4'
           src={nodejs} />
           <h3 className='text-2xl  text-yellow-300 md:text-4xl'>Node JS</h3>        
           </div>
-          <div className='md:w-1/4  flex flex-col md:flex-col  md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
+          <div className='md:w-1/4  flex flex-col md:flex-col hover:scale-125 transition duration-500 cursor-pointer md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
           <img 
           className='h-1/4 w-1/4'
           src={mongo} />
           <h3 className='text-2xl text-yellow-300 md:text-4xl'>Mongo db</h3>        
           </div>
-          <div className='md:w-1/4 flex flex-col md:flex-col md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
+          <div className='md:w-1/4 flex flex-col hover:scale-125 transition duration-500 cursor-pointer md:flex-col md:border md:border-slate-200 md:border-xl md:rounded-full p-9 justify-center items-center gap-3 md:shadow-md md:shadow-yellow-500'>
           <img 
           className='h-1/4 w-1/4'
           src={mysql} />

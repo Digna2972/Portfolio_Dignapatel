@@ -33,12 +33,18 @@ function Project() {
         <h3 className='text-3xl text-color-text md:text-6xl'>Internship</h3>
         <div className='w-3/4 md:w-1/2 flex flex-col md:flex-col  justify-center items-center p-10 gap-2 mt-4 mb-9 border border-xl border-yellow-500 rounded-2xl  shadow-md shadow-yellow-500'>
         <h2 className='text-2xl text-white'>Durvasa Infotech</h2>
-        <h2 className='text-2xl text-yellow-200'>Technology- Reactjs, Node Js</h2>
+        <p className='text-xl text-color-text text-justify'>Led the development and implementation of a robust task management system, streamlining workflow processes, enhancing team collaboration, and significantly improving project efficiency and delivery timelines.</p>
+       <p className='text-xl text-color-text text-justify'>	Increased user engagement by 20% through intuitive design and a streamlined feedback process.</p>
+       
         
         </div>
         <div className='w-3/4 md:w-1/2 flex flex-col md:flex-col  justify-center items-center p-10 gap-2 mt-4 mb-9 border border-xl  border-yellow-500 rounded-2xl  shadow-md shadow-yellow-500'>
         <h2 className='text-2xl text-white p-4'>Techomax solution</h2>
-        <h2 className='text-2xl text-yellow-200 p-4'>Technology- Mobile Application Development</h2>
+        <p className='text-xl text-color-text text-justify'>Created accessible ,responsive, and functional user interfaces to allow visitors on any device to have same perfect user experience.</p>
+        <p className='text-xl text-color-text text-justify'>Built mock designs and wireframes for landing pages for 5 new product concept.
+	Created the user experience that fetched, parsed ,and formatted analytic data, and relayed into React Component.
+</p>
+        
         </div>
         
       </div>
@@ -48,7 +54,7 @@ function Project() {
        <div className='flex flex-col justify-center items-center pt-7 gap-10 '>
           <div className=' w-1/2 pl-5 pr-5 flex flex-col justify-center items-center shadow-md shadow-yellow-500 border border-2xl border-yellow-500 rounded-2xl'>           
             <h2 className='text-white text-2xl md:text-4xl pt-15 '>Design Agency</h2>
-            <h3 className='text-yellow-200  text-xl md:text-2xl p-2'>Language:Reactjs ,Tailwind</h3>
+            <h3 className='text-yellow-200  text-xl md:text-2xl p-2'>Language:Reactjs ,Bootstrap</h3>
             <button 
             className='bg-white text-black text-2xl shadow-md shadow-yellow-500 border border-black w-fit h-fit p-4 m-5 rounded-xl'
             onClick={handleclick}
