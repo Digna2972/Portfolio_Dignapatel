@@ -4,7 +4,7 @@ import {ReactTyped} from "react-typed";
 
 function Home() {
   const handlevent=()=>{
-    window.location.href='https://drive.google.com/file/d/173yjLh1v1w-gcNGHhVsI_3r74p03ZOAS/view?usp=drivesdk'
+    window.location.href='https://drive.google.com/file/d/1BXte6eAFKcLCcrCC1xwgYG6pMnhCadiv/view?usp=sharing'
   }
   return (
     <div className="bg-gradient-to-t from-color-background to to-blue-900 h-fit">
